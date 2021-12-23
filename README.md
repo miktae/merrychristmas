@@ -6,7 +6,7 @@
   </a>
 </p>
 
-### 🏠 [Homepage](https://miktae.github.io/merrychristmas/)
+### 🏠 Click here to see on the web -> [Homepage](https://miktae.github.io/merrychristmas/)
 
 ## Install
 
