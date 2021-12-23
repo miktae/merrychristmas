@@ -1,0 +1,54 @@
+body {
+    background-image: url('./assets/theme.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+h1 {
+  color:rgb(255, 255, 255);
+  margin-top: 10%;
+  font-style: bold;
+}
+#audio1{
+  display: none;
+}
+.btn{
+  background-color: #F5624D;
+  color: #fff;
+  font-weight: bold;
+  width: 120px;
+  height: 50px;
+  margin-right: 7px;
+  margin-bottom: 7px;
+  border: 0.6px solid #bb7c73f5;
+  border-radius: 5px;
+}
+.btn:hover{
+  cursor: pointer;
+  background-color:rgb(253, 7, 7);
+}
+a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #ffff;
+}
+.snowflake{
+  position:absolute;
+  top:-40px;
+  transition: left 5s;
+  opacity:1;
+  color: #fff;
+  -webkit-animation:spin 4s linear infinite;
+  -moz-animation:spin 4s linear infinite;
+  animation:spin 4s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

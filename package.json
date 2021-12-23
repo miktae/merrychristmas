@@ -1,0 +1,17 @@
+{
+    "name": "merry-christmas-by-miktae",
+    "version": "1.0.0",
+    "main": "main.js",
+    "devDependencies": {
+        "electron": "^16.0.4"
+    },
+    "scripts": {
+        "start": "electron .",
+        "electron": "ELECTRON_DISABLE_SECURITY_WARNINGS=true electron ."
+    },
+    "dependencies": {
+        "electron-osx-prompt": "^1.4.1",
+        "electron-prompt": "^1.7.0",
+        "jquery": "^3.6.0"
+    }
+}
