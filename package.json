@@ -17,13 +17,14 @@
     "build": {
         "appId": "com.miktae07.merrychristmas",
         "win": {
-          "target": "nsis",
-          "icon": "assets/reindeer.ico"
+            "target": "nsis",
+            "icon": "assets/reindeer.ico"
         }
     },
     "dependencies": {
         "electron-osx-prompt": "^1.4.1",
         "electron-prompt": "^1.7.0",
-        "jquery": "^3.6.0"
+        "jquery": "^3.6.0",
+        "readme-md-generator": "^1.0.0"
     }
 }

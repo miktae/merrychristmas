@@ -34,7 +34,7 @@ ipc.on('message', function (event) {
   dialog.showMessageBoxSync({
     message: "Wish you a merry Christmas!",
     title: "Message",
-    icon: "assets/reindeer.png"
+    icon: "./assets/reindeer.png"
   });
   event.sender.send('reply', 'OK')
 })
@@ -64,7 +64,7 @@ app.on('ready',
           {
             label: 'View on the web',
             click: function () {
-              electron.shell.openExternal("https://github.com/miktae")
+              electron.shell.openExternal("https://miktae.github.io/merrychristmas/")
             }
           },
         ]

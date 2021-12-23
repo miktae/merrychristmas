@@ -1,9 +1,0 @@
-directories:
-  output: dist
-  buildResources: build
-appId: com.miktae07.merrychristmas
-win:
-  target: nsis
-  icon: assets/reindeer.ico
-files: []
-electronVersion: 16.0.5
