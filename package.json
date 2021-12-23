@@ -1,13 +1,25 @@
 {
     "name": "merry-christmas-by-miktae",
     "version": "1.0.0",
+    "author": "miktae",
+    "description": "Xmas app",
     "main": "main.js",
     "devDependencies": {
-        "electron": "^16.0.4"
+        "electron": "^16.0.4",
+        "electron-builder": "^22.14.5"
     },
     "scripts": {
         "start": "electron .",
-        "electron": "ELECTRON_DISABLE_SECURITY_WARNINGS=true electron ."
+        "electron": "ELECTRON_DISABLE_SECURITY_WARNINGS=true electron .",
+        "pack": "electron-builder --dir",
+        "dist": "electron-builder"
+    },
+    "build": {
+        "appId": "com.miktae07.merrychristmas",
+        "win": {
+          "target": "nsis",
+          "icon": "assets/reindeer.ico"
+        }
     },
     "dependencies": {
         "electron-osx-prompt": "^1.4.1",

@@ -34,7 +34,7 @@ ipc.on('message', function (event) {
   dialog.showMessageBoxSync({
     message: "Wish you a merry Christmas!",
     title: "Message",
-    icon: "./assets/reindeer.png"
+    icon: "assets/reindeer.png"
   });
   event.sender.send('reply', 'OK')
 })

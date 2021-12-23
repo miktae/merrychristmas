@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
     background-image: url('./assets/theme.jpg');
     background-repeat: no-repeat;
@@ -37,6 +41,21 @@ a{
   text-decoration: none;
   font-weight: bold;
   color: #ffff;
+}
+#form{
+  text-align: center;
+  margin-top: 10%;
+}
+#download{
+  background-color: #f34b31f5;
+  border: 1px solid #6d2828f5;
+  color:rgb(255, 255, 255);
+  padding: 6px 10px 6px 10px;
+}
+#download:hover{
+  cursor: pointer;
+  background-color: #e20a0a;
+  
 }
 .snowflake{
   position:absolute;
