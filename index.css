@@ -17,7 +17,7 @@ body {
 h1 {
   color:rgb(255, 255, 255);
   margin-top: 10%;
-  font-style: bold;
+  font-style: bold 100%;
 }
 #audio1{
   display: none;
