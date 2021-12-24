@@ -71,3 +71,15 @@ a{
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+/*Responsive*/
+@media only screen and (max-width: 700px){
+  h1{
+    font-size: 30px;
+  }
+  body{
+    background-image: url('./assets/theme.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+}
