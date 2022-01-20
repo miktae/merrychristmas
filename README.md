@@ -8,16 +8,11 @@
 
 ### 🏠 Click here to see on the web -> [Homepage](https://miktae.github.io/merrychristmas/)
 
-## Install
-
-```sh
-npm install
-```
 
 ## Usage
 
 ```sh
-npm run start
+On web
 ```
 
 ## Author
